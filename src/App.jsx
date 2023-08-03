@@ -1,22 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Saludo from './components/Saludo'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const age = 32;
 
   return (
     <>
+      {age > 20 ? <Saludo /> : ""}
+      {/* <Saludo />
       <Saludo />
       <Saludo />
       <Saludo />
       <Saludo />
-      <Saludo />
-      <Saludo />
-      <Saludo />
+      <Saludo /> */}
     </>
   )
 }
