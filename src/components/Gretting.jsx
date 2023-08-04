@@ -1,10 +1,11 @@
 
-function Gretting({ title, phoneNumber, isBigger, number, users, add }) {
+function Gretting({ title, phoneNumber, isBigger, number, users, add, children }) {
     // const { title } = props;
     // const user = "Miguel Melgarejo"
 
     // const add = (n1, n2) => n1 + n2;
 
+    console.log(children);
     return (
         <>
             {/* Observese que no se usa 'class' por que es una palabra reservada de JS */}
@@ -26,6 +27,7 @@ function Gretting({ title, phoneNumber, isBigger, number, users, add }) {
             <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi optio ipsum provident suscipit est similique dolore reprehenderit alias? Molestias, accusantium. Deleniti assumenda expedita itaque est in cumque, pariatur sequi alias?
             </p>
+            {children}
         </>
     )
 }

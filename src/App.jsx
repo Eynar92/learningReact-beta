@@ -1,4 +1,5 @@
 import './App.css'
+import Button from './components/Button';
 import Gretting from './components/Gretting'
 
 
@@ -32,6 +33,12 @@ function App() {
       <Gretting
         title="Cómo es?"
       />
+
+      <Gretting title="I've props Childrens">
+        <hr />
+        <p><strong>I'm a children tag</strong></p>
+        <Button buttonTitle={`I'm a comoponent inside another component`} />
+      </Gretting>
 
       {/* {age > 20 ? <Saludo /> : ""} */}
       {/* <Saludo />
