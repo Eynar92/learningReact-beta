@@ -1,7 +1,8 @@
 import './App.css'
 import Button from './components/Button';
 import Gretting from './components/Gretting'
-
+import Users from './components/Users';
+import USERS_DATA from './data/users.json'
 
 function App() {
   // const age = 32;
@@ -34,12 +35,13 @@ function App() {
         title="Cómo es?"
       />
 
-      <Gretting title="I've props Childrens">
+      <Gretting title="I've Children Props">
         <hr />
         <p><strong>I'm a children tag</strong></p>
         <Button buttonTitle={`I'm a comoponent inside another component`} />
       </Gretting>
 
+      <Users usersData={USERS_DATA} />
       {/* {age > 20 ? <Saludo /> : ""} */}
       {/* <Saludo />
       <Saludo />

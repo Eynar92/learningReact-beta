@@ -5,7 +5,7 @@ function Gretting({ title, phoneNumber, isBigger, number, users, add, children }
 
     // const add = (n1, n2) => n1 + n2;
 
-    console.log(children);
+    // console.log(children);
     return (
         <>
             {/* Observese que no se usa 'class' por que es una palabra reservada de JS */}
