@@ -1,6 +1,7 @@
 import './App.css'
 import Button from './components/Button';
 import Gretting from './components/Gretting'
+import TitlePropsDefault from './components/TitlePropsDefault';
 import Users from './components/Users';
 import USERS_DATA from './data/users.json'
 
@@ -42,6 +43,10 @@ function App() {
       </Gretting>
 
       <Users usersData={USERS_DATA} />
+
+      <TitlePropsDefault />
+      <TitlePropsDefault titlePropsDefault='We are working with Default Props' />
+
       {/* {age > 20 ? <Saludo /> : ""} */}
       {/* <Saludo />
       <Saludo />
