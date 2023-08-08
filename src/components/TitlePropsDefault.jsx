@@ -1,4 +1,3 @@
-import React from 'react'
 
 // function TitlePropsDefault({ titlePropsDefault = 'Default Title' }) {
 function TitlePropsDefault({ titlePropsDefault}) {
